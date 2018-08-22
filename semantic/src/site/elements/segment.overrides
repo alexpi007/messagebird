@@ -1,0 +1,16 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.segment {
+	border: 1px solid #ebf5ff;
+  min-height: 100%;
+  box-shadow: none;
+	border-radius: 6px;
+	padding: 30px;
+	margin: 30px;
+}
+
+.ui.segment:last-child {
+	margin-bottom: 20px;
+}

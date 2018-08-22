@@ -1,0 +1,10 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.header {
+	color: rgb(74, 86, 105);
+	line-height: 40px;
+	font-weight: normal;
+	margin: 0;
+}

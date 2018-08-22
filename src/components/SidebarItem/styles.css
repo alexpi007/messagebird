@@ -1,0 +1,54 @@
+
+.selected {
+  transition: background-color .2s ease;
+  background-color: #2481d7;
+  width: calc(100% - 16px);
+  border-radius: 0 6px 6px 0;	
+}
+
+.item:hover {
+  transition: background-color .2s ease;
+  background-color: #283e62;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  align-items: center;
+  padding: 10px;
+  line-height: 1.3em;
+  height: 20px;
+}
+
+.icon {
+  line-height: 20px;
+  width: 20px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0;
+  margin-right: 10px;
+  text-align: center;
+  padding-left: 14px;
+}
+
+.title {
+  transition: opacity .4s ease;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.hiddenTitle {
+  visibility: hidden;
+  transition-delay: 0;
+	opacity: 0;
+}
+
+.visibleTitle {
+  transition-delay: .2s;
+	opacity: 1;
+}
+

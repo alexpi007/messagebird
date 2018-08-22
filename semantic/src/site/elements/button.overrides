@@ -1,0 +1,8 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+
+.ui.primary.button:hover {
+	background: @lightPrimaryColor;
+}

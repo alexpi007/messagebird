@@ -1,0 +1,40 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+/*-------------------
+       Fonts
+--------------------*/
+
+@fontName          : 'intercom-font';
+@fontSmoothing     : antialiased;
+
+@headerFont        : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : @fontName, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+
+@googleFontName    : @fontName;
+@importGoogleFonts : true;
+@googleFontSizes   : '400,700';
+@googleSubset      : 'latin';
+
+@googleProtocol    : '';
+@googleFontRequest : '';
+
+
+@bold              : bold;
+@normal            : normal;
+
+@fontSize: 14px;
+
+/*-------------------
+    Brand Colors
+--------------------*/
+
+@primaryColor        : #3f90dc;
+@secondaryColor      : @black;
+
+@lightPrimaryColor   : #28a7db;
+@lightSecondaryColor : @lightBlack;
+
+@blueBirdButtonColor : #687992;
+@blueBirdActive : #e5edf3;

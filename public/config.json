@@ -1,0 +1,4 @@
+{
+	"apiKey": "<MESSAGEBIRD API KEY>",
+	"apiUri": "https://rest.messagebird.com"
+}

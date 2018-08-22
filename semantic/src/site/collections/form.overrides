@@ -1,0 +1,21 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.form textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+	min-height: 150px;
+	margin-top: 15px;
+}
+
+
+.ui.form .fields.custom-field {
+	margin: 0;
+  flex-direction: row-reverse;
+}
+
+.ui.form .field>label {
+	display: none;
+}

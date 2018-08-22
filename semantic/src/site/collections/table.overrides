@@ -1,0 +1,37 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.table {
+	border: 0;
+}
+
+.ui.table thead th {
+	background-color: #fff;
+	border-bottom: 1px dashed #d6e0f1;
+}
+
+.ui.table tr td {
+	border-top: 0;
+}
+
+.ui.table>tbody>tr>td, .ui.table>tbody>tr>th {
+	border-bottom: 2px solid #ecf2fc;
+}
+
+.ui.celled.table tr td, 
+.ui.celled.table tr th, 
+.ui.definition.table tr td,
+.ui.definition.table tr th {
+	border-left: 2px solid #ecf2fc;
+}
+
+.ui.definition.table tr td.definition, .ui.definition.table tr td:first-child:not(.ignored) {
+  border-left: 0;
+  background: none;
+  border-right: 2px solid #ecf2fc;
+}
+
+.ui.definition.table td:nth-child(2) {
+	border-left: 0;
+}

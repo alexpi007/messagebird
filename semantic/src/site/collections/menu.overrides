@@ -1,0 +1,17 @@
+/*******************************
+         Site Overrides
+*******************************/
+.ui.secondary.menu .active.item:hover,
+.ui.secondary.menu .active.item,
+.ui.secondary.menu a.item:hover {
+	background: @blueBirdActive;
+}
+
+.ui.secondary.menu {
+	margin: 30px;
+}
+
+.ui.secondary.menu .item {
+	font-weight: 600;
+	color: @blueBirdButtonColor;
+}

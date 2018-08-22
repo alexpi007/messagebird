@@ -1,0 +1,49 @@
+@font-face {
+  font-family: intercom-font;
+  src: url(https://js.intercomcdn.com/fonts/proximanova-regular.a7942249.woff) format("woff")
+}
+
+@font-face {
+  font-family: intercom-font;
+  src: url(https://js.intercomcdn.com/fonts/proximanova-semibold.46e3f047.woff) format("woff");
+  font-weight: 700
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f6fafd;
+  color: rgb(74, 86, 105);
+  text-decoration: none !important;
+}
+
+html,
+body,
+button {
+  font-family: "intercom-font", sans-serif;
+  font-size: 14px;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+.nav {
+  flex: 0 0 auto;
+}
+
+.section {
+  flex: 1 1 auto;
+  overflow-y: auto;
+}
